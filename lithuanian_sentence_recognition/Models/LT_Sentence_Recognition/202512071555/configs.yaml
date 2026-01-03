@@ -5,6 +5,5 @@ max_text_length: 38
 model_path: Models/LT_Sentence_Recognition/202512071555
 train_epochs: 200
 train_workers: 20
-vocab: " .?ABDGJKLMNPRSTVabdefgijklmnoprstuvyz\u0105\u0117\u012F\u0160\u0161\u016B\
-  \u017D\u017E"
+vocab: " .?ABDGJKLMNPRSTVabdefgijklmnoprstuvyz\u0105\u0117\u012F\u0160\u0161\u016B\u017D\u017E"
 width: 1408
