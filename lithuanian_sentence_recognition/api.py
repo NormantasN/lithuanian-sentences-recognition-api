@@ -59,9 +59,13 @@ def load_model(model_dir):
 
     configs_path = os.path.join(model_dir, "configs.yaml")
     print("DEBUG configs_path exists:", os.path.exists(configs_path))
-    if not os.path.exists(configs_path):
-        raise FileNotFoundError(f"Konfigūracija nerasta: {configs_path}")
-    configs.model_path = os.path.normpath(configs.model_path)
+
+    # DEBUG YAML load
+    import yaml
+    with open(configs_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    print("DEBUG YAML data:", data)
+
 
     configs = BaseModelConfigs.load(configs_path)
     if configs is None:
