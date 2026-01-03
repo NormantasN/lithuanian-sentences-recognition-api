@@ -1,0 +1,1003 @@
+2025-12-07 15:55:56,363 - tensorflow - WARNING - From C:\Users\norma\PycharmProjects\mltu-tyrimas\.venv\Lib\site-packages\tf2onnx\tf_loader.py:72: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2025-12-07 15:56:04,090 - tensorflow - WARNING - From C:\Users\norma\PycharmProjects\mltu-tyrimas\.venv\Lib\site-packages\keras\src\legacy\backend.py:666: The name tf.nn.ctc_loss is deprecated. Please use tf.compat.v1.nn.ctc_loss instead.
+
+2025-12-07 17:52:42,166 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-07 17:52:42,230 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-07 17:52:42,231 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-07 18:26:25,192 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-07 18:26:25,652 - root - INFO - Epoch 0; CER: 0.8351611495018005; WER: 1.3553025722503662; loss: 97.22547912597656; val_CER: 0.8384924530982971; val_WER: 1.3197687864303589; val_loss: 66.23480987548828
+2025-12-07 20:16:35,262 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-07 20:16:35,323 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-07 20:16:35,334 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-07 20:57:18,887 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-07 20:57:20,047 - root - INFO - Epoch 1; CER: 0.7954896688461304; WER: 1.26319420337677; loss: 62.04695510864258; val_CER: 0.7969659566879272; val_WER: 1.2500332593917847; val_loss: 59.745506286621094
+2025-12-07 22:12:55,160 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-07 22:12:55,205 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-07 22:12:55,206 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-07 23:26:42,671 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-07 23:26:43,258 - root - INFO - Epoch 2; CER: 0.7838270664215088; WER: 1.2353436946868896; loss: 59.40727615356445; val_CER: 0.7854449152946472; val_WER: 1.2276532649993896; val_loss: 59.18252944946289
+2025-12-07 23:55:25,829 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-07 23:55:25,867 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-07 23:55:25,869 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 01:54:47,135 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 01:54:47,946 - root - INFO - Epoch 3; CER: 0.7751742005348206; WER: 1.2050188779830933; loss: 57.06768035888672; val_CER: 0.7744415998458862; val_WER: 1.2002514600753784; val_loss: 56.20574951171875
+2025-12-08 03:30:43,439 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 03:30:43,502 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 03:30:43,504 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 04:22:55,220 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 04:22:56,051 - root - INFO - Epoch 4; CER: 0.7612560391426086; WER: 1.1667488813400269; loss: 54.185604095458984; val_CER: 0.7605538964271545; val_WER: 1.1635347604751587; val_loss: 57.4212646484375
+2025-12-08 06:21:12,751 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 06:21:12,801 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 06:21:12,802 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 06:51:50,507 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 06:51:51,488 - root - INFO - Epoch 5; CER: 0.7441980242729187; WER: 1.133549451828003; loss: 50.32451248168945; val_CER: 0.7421521544456482; val_WER: 1.1302917003631592; val_loss: 48.289756774902344
+2025-12-08 07:20:17,131 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 07:20:17,188 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 07:20:17,190 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 09:21:47,853 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 09:21:48,739 - root - INFO - Epoch 6; CER: 0.7259106040000916; WER: 1.1055164337158203; loss: 47.01875686645508; val_CER: 0.7246261835098267; val_WER: 1.1036726236343384; val_loss: 48.05327224731445
+2025-12-08 10:15:29,476 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 10:15:29,521 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 10:15:29,523 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 11:49:03,366 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 11:49:04,516 - root - INFO - Epoch 7; CER: 0.7073825001716614; WER: 1.0813454389572144; loss: 43.55702209472656; val_CER: 0.7064072489738464; val_WER: 1.0807280540466309; val_loss: 51.13080978393555
+2025-12-08 11:54:13,779 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 11:54:13,816 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 11:54:13,818 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 14:16:56,857 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 14:16:57,708 - root - INFO - Epoch 8; CER: 0.6894770860671997; WER: 1.0601578950881958; loss: 40.59363555908203; val_CER: 0.6875176429748535; val_WER: 1.0575505495071411; val_loss: 37.65354537963867
+2025-12-08 16:16:25,505 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 16:16:25,559 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 16:16:25,560 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 16:44:10,663 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 16:44:11,551 - root - INFO - Epoch 9; CER: 0.670149028301239; WER: 1.0379570722579956; loss: 37.49790573120117; val_CER: 0.6679381728172302; val_WER: 1.0355390310287476; val_loss: 33.420955657958984
+2025-12-08 19:01:52,613 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 19:01:52,653 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 19:01:52,654 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 19:11:43,770 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 19:11:44,493 - root - INFO - Epoch 10; CER: 0.6506824493408203; WER: 1.0179030895233154; loss: 34.49563217163086; val_CER: 0.6486899256706238; val_WER: 1.0158556699752808; val_loss: 32.2232551574707
+2025-12-08 20:27:44,450 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 20:27:44,498 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 20:27:44,501 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-08 21:40:01,873 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-08 21:40:02,806 - root - INFO - Epoch 11; CER: 0.630831778049469; WER: 0.9980186820030212; loss: 31.378507614135742; val_CER: 0.6285349726676941; val_WER: 0.9955797791481018; val_loss: 26.985746383666992
+2025-12-08 22:34:41,867 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-08 22:34:41,925 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-08 22:34:41,926 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 00:08:17,828 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 00:08:18,623 - root - INFO - Epoch 12; CER: 0.6102384328842163; WER: 0.9774788618087769; loss: 28.204790115356445; val_CER: 0.6115804314613342; val_WER: 0.9780972003936768; val_loss: 169.59434509277344
+2025-12-09 00:59:41,035 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 00:59:41,079 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 00:59:41,082 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 02:36:42,031 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 02:36:42,725 - root - INFO - Epoch 13; CER: 0.5933060646057129; WER: 0.9600570201873779; loss: 25.49254608154297; val_CER: 0.5952463150024414; val_WER: 0.961515486240387; val_loss: 93.29065704345703
+2025-12-09 04:55:09,413 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 04:55:09,458 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 04:55:09,459 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 05:04:40,555 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 05:04:41,470 - root - INFO - Epoch 14; CER: 0.5776703953742981; WER: 0.9436085224151611; loss: 23.839170455932617; val_CER: 0.5754628777503967; val_WER: 0.9410504698753357; val_loss: 19.53358268737793
+2025-12-09 06:06:20,267 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 06:06:20,317 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 06:06:20,318 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 07:34:22,536 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 07:34:23,419 - root - INFO - Epoch 15; CER: 0.5577858090400696; WER: 0.923001766204834; loss: 20.880401611328125; val_CER: 0.5557116270065308; val_WER: 0.9204668402671814; val_loss: 18.31108283996582
+2025-12-09 08:06:09,763 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 08:06:09,801 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 08:06:09,804 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 10:05:34,317 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 10:05:35,342 - root - INFO - Epoch 16; CER: 0.538661539554596; WER: 0.9019491672515869; loss: 19.161762237548828; val_CER: 0.536649227142334; val_WER: 0.8993271589279175; val_loss: 16.581565856933594
+2025-12-09 10:49:55,665 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 10:49:55,715 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 10:49:55,717 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 12:33:09,997 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 12:33:11,055 - root - INFO - Epoch 17; CER: 0.5200378894805908; WER: 0.8804288506507874; loss: 17.384021759033203; val_CER: 0.522861123085022; val_WER: 0.8834967017173767; val_loss: 83.54068756103516
+2025-12-09 13:06:21,013 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 13:06:21,046 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 13:06:21,059 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 15:00:47,305 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 15:00:48,091 - root - INFO - Epoch 18; CER: 0.5068359375; WER: 0.8643597960472107; loss: 16.197845458984375; val_CER: 0.5049644112586975; val_WER: 0.8616671562194824; val_loss: 13.535208702087402
+2025-12-09 16:49:37,163 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 16:49:37,256 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 16:49:37,258 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 17:29:13,016 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 17:29:13,863 - root - INFO - Epoch 19; CER: 0.4896619915962219; WER: 0.842619776725769; loss: 14.81112003326416; val_CER: 0.4893292784690857; val_WER: 0.8417953252792358; val_loss: 37.103763580322266
+2025-12-09 17:43:18,399 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 17:43:18,439 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 17:43:18,440 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 19:56:05,686 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 19:56:06,505 - root - INFO - Epoch 20; CER: 0.4745805859565735; WER: 0.8224877715110779; loss: 13.641388893127441; val_CER: 0.47614169120788574; val_WER: 0.8241317272186279; val_loss: 82.45402526855469
+2025-12-09 21:45:21,242 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-09 21:45:21,282 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-09 21:45:21,285 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-09 22:27:06,432 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-09 22:27:07,165 - root - INFO - Epoch 21; CER: 0.4621434509754181; WER: 0.8051367998123169; loss: 13.06020450592041; val_CER: 0.4605382978916168; val_WER: 0.8026695251464844; val_loss: 11.290705680847168
+2025-12-10 00:32:11,410 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 00:32:11,453 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 00:32:11,455 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 00:58:00,751 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 00:58:01,680 - root - INFO - Epoch 22; CER: 0.447356641292572; WER: 0.7841957807540894; loss: 12.367557525634766; val_CER: 0.44598913192749023; val_WER: 0.7820510864257812; val_loss: 13.092096328735352
+2025-12-10 02:09:59,988 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 02:10:00,036 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 02:10:00,037 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 03:27:20,038 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 03:27:20,775 - root - INFO - Epoch 23; CER: 0.43387773633003235; WER: 0.7650099992752075; loss: 13.017348289489746; val_CER: 0.43655192852020264; val_WER: 0.7661507725715637; val_loss: 92.7674331665039
+2025-12-10 04:55:05,201 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 04:55:05,273 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 04:55:05,274 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 05:56:49,317 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 05:56:50,409 - root - INFO - Epoch 24; CER: 0.4252012073993683; WER: 0.7505020499229431; loss: 13.677739143371582; val_CER: 0.4239141345024109; val_WER: 0.7484303712844849; val_loss: 11.948389053344727
+2025-12-10 06:40:15,996 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 06:40:16,042 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 06:40:16,043 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 08:24:35,409 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 08:24:36,343 - root - INFO - Epoch 25; CER: 0.4128371775150299; WER: 0.7321493625640869; loss: 11.751150131225586; val_CER: 0.4147128462791443; val_WER: 0.7333636283874512; val_loss: 212.44192504882812
+2025-12-10 10:19:55,138 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 10:19:55,190 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 10:19:55,191 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 10:53:20,997 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 10:53:22,002 - root - INFO - Epoch 26; CER: 0.4043146073818207; WER: 0.7179362773895264; loss: 11.488536834716797; val_CER: 0.4060524106025696; val_WER: 0.7202997207641602; val_loss: 292.9465637207031
+2025-12-10 11:19:20,884 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 11:19:20,929 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 11:19:20,931 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 13:21:31,242 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 13:21:32,256 - root - INFO - Epoch 27; CER: 0.3959283232688904; WER: 0.7047856450080872; loss: 10.648507118225098; val_CER: 0.39477238059043884; val_WER: 0.7027902603149414; val_loss: 9.586569786071777
+2025-12-10 14:48:48,584 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 14:48:48,624 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 14:48:48,625 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 15:49:49,691 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 15:49:57,359 - root - INFO - Epoch 28; CER: 0.3851090371608734; WER: 0.68768709897995; loss: 10.07580280303955; val_CER: 0.3866002559661865; val_WER: 0.6892592906951904; val_loss: 154.87005615234375
+2025-12-10 17:00:15,687 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 17:00:15,735 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 17:00:15,736 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 18:18:30,266 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 18:18:31,283 - root - INFO - Epoch 29; CER: 0.37739503383636475; WER: 0.67463618516922; loss: 9.781847953796387; val_CER: 0.3788904845714569; val_WER: 0.6768850088119507; val_loss: 81.22831726074219
+2025-12-10 19:01:48,405 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 19:01:48,455 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 19:01:48,456 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 20:48:40,769 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 20:48:41,831 - root - INFO - Epoch 30; CER: 0.3702017664909363; WER: 0.6630241870880127; loss: 9.680428504943848; val_CER: 0.37222379446029663; val_WER: 0.6658374071121216; val_loss: 136.50881958007812
+2025-12-10 21:06:14,985 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-10 21:06:15,025 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-10 21:06:15,026 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-10 23:20:56,343 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-10 23:20:57,410 - root - INFO - Epoch 31; CER: 0.36381980776786804; WER: 0.6521546840667725; loss: 9.187771797180176; val_CER: 0.36286571621894836; val_WER: 0.6504504680633545; val_loss: 8.607104301452637
+2025-12-11 00:41:38,954 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 00:41:38,993 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 00:41:38,995 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 01:52:28,745 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 01:52:29,675 - root - INFO - Epoch 32; CER: 0.35484617948532104; WER: 0.63729327917099; loss: 8.79797077178955; val_CER: 0.3565448820590973; val_WER: 0.6383925080299377; val_loss: 203.14181518554688
+2025-12-11 02:25:07,141 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 02:25:07,194 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 02:25:07,195 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 04:21:28,410 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 04:21:29,399 - root - INFO - Epoch 33; CER: 0.34885668754577637; WER: 0.6257190108299255; loss: 8.564438819885254; val_CER: 0.3480162024497986; val_WER: 0.6242284178733826; val_loss: 8.987442016601562
+2025-12-11 04:36:59,453 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 04:36:59,489 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 04:36:59,490 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 06:50:57,063 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 06:50:58,089 - root - INFO - Epoch 34; CER: 0.34080198407173157; WER: 0.612358808517456; loss: 8.554218292236328; val_CER: 0.33999642729759216; val_WER: 0.610935628414154; val_loss: 8.53710651397705
+2025-12-11 08:12:31,620 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 08:12:31,680 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 08:12:31,683 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 09:19:09,290 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 09:19:10,101 - root - INFO - Epoch 35; CER: 0.33315709233283997; WER: 0.5997107625007629; loss: 8.446189880371094; val_CER: 0.3324029743671417; val_WER: 0.59836345911026; val_loss: 8.734269142150879
+2025-12-11 09:58:10,517 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 09:58:10,558 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 09:58:10,560 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 11:47:13,238 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 11:47:14,092 - root - INFO - Epoch 36; CER: 0.32581499218940735; WER: 0.5873301029205322; loss: 7.981452941894531; val_CER: 0.32508385181427; val_WER: 0.5860164165496826; val_loss: 8.142508506774902
+2025-12-11 13:15:01,305 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 13:15:01,340 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 13:15:01,341 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 14:15:16,485 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 14:15:17,374 - root - INFO - Epoch 37; CER: 0.31881508231163025; WER: 0.5754700303077698; loss: 7.840902328491211; val_CER: 0.3203980624675751; val_WER: 0.5765873193740845; val_loss: 141.20147705078125
+2025-12-11 16:37:38,167 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 16:37:38,214 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 16:37:38,217 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 16:43:30,673 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 16:43:31,614 - root - INFO - Epoch 38; CER: 0.3144361078739166; WER: 0.5666493773460388; loss: 7.843090057373047; val_CER: 0.3137736916542053; val_WER: 0.5654548406600952; val_loss: 8.303317070007324
+2025-12-11 18:47:36,219 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 18:47:36,259 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 18:47:36,261 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 19:10:41,720 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 19:10:42,658 - root - INFO - Epoch 39; CER: 0.3079919219017029; WER: 0.5556880831718445; loss: 7.395714282989502; val_CER: 0.3095272481441498; val_WER: 0.5567989349365234; val_loss: 217.98855590820312
+2025-12-11 19:15:07,066 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 19:15:07,071 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 19:15:07,073 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-11 21:38:24,424 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-11 21:38:25,365 - root - INFO - Epoch 40; CER: 0.30406928062438965; WER: 0.5477173328399658; loss: 7.585823059082031; val_CER: 0.30345362424850464; val_WER: 0.5466101765632629; val_loss: 8.027558326721191
+2025-12-11 22:26:44,685 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-11 22:26:44,719 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-11 22:26:44,721 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 00:07:11,010 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 00:07:11,784 - root - INFO - Epoch 41; CER: 0.298196017742157; WER: 0.5377413034439087; loss: 7.420478343963623; val_CER: 0.29760798811912537; val_WER: 0.5366856455802917; val_loss: 8.007410049438477
+2025-12-12 01:25:46,813 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 01:25:46,860 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 01:25:46,862 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 02:35:42,982 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 02:35:43,760 - root - INFO - Epoch 42; CER: 0.2925657331943512; WER: 0.5281211137771606; loss: 7.182976722717285; val_CER: 0.2920062839984894; val_WER: 0.5271145105361938; val_loss: 8.085760116577148
+2025-12-12 03:10:40,006 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 03:10:40,056 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 03:10:40,058 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 05:05:33,056 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 05:05:33,962 - root - INFO - Epoch 43; CER: 0.28713124990463257; WER: 0.518796443939209; loss: 6.831978797912598; val_CER: 0.28660231828689575; val_WER: 0.5178424119949341; val_loss: 8.32670783996582
+2025-12-12 05:51:51,956 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 05:51:51,999 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 05:51:52,001 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 07:34:51,556 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 07:34:52,564 - root - INFO - Epoch 44; CER: 0.28191572427749634; WER: 0.50982666015625; loss: 6.718132495880127; val_CER: 0.28139686584472656; val_WER: 0.5088854432106018; val_loss: 7.8440937995910645
+2025-12-12 09:19:19,893 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 09:19:19,948 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 09:19:19,950 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 10:03:42,885 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 10:03:43,804 - root - INFO - Epoch 45; CER: 0.27690866589546204; WER: 0.5012068748474121; loss: 6.578005790710449; val_CER: 0.2783738672733307; val_WER: 0.5022913217544556; val_loss: 257.74053955078125
+2025-12-12 11:40:11,300 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 11:40:11,355 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 11:40:11,357 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 12:31:56,461 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 12:31:57,426 - root - INFO - Epoch 46; CER: 0.2740822732448578; WER: 0.49504831433296204; loss: 6.751108169555664; val_CER: 0.2736080586910248; val_WER: 0.4941830635070801; val_loss: 8.145597457885742
+2025-12-12 13:33:18,074 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 13:33:18,126 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 13:33:18,128 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 14:59:54,336 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 14:59:55,262 - root - INFO - Epoch 47; CER: 0.26940444111824036; WER: 0.4869525134563446; loss: 6.25842809677124; val_CER: 0.27052754163742065; val_WER: 0.4887000620365143; val_loss: 88.92487335205078
+2025-12-12 15:37:35,708 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 15:37:35,748 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 15:37:35,749 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 17:28:48,639 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 17:28:49,537 - root - INFO - Epoch 48; CER: 0.2664651572704315; WER: 0.4817429482936859; loss: 6.226929664611816; val_CER: 0.2660231292247772; val_WER: 0.4809357523918152; val_loss: 8.172269821166992
+2025-12-12 19:36:28,361 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 19:36:28,411 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 19:36:28,412 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 19:56:53,136 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 19:56:54,126 - root - INFO - Epoch 49; CER: 0.26214584708213806; WER: 0.4743148982524872; loss: 6.252276420593262; val_CER: 0.2635229527950287; val_WER: 0.47536638379096985; val_loss: 146.07069396972656
+2025-12-12 20:05:53,982 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-12 20:05:53,992 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-12 20:05:53,993 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-12 22:25:03,576 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-12 22:25:04,515 - root - INFO - Epoch 50; CER: 0.2597559094429016; WER: 0.4689384698867798; loss: 6.116184234619141; val_CER: 0.2593422830104828; val_WER: 0.4681825041770935; val_loss: 8.090964317321777
+2025-12-13 00:43:05,644 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 00:43:05,693 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 00:43:05,695 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 00:53:49,786 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 00:53:50,809 - root - INFO - Epoch 51; CER: 0.25571316480636597; WER: 0.4619966149330139; loss: 6.107254505157471; val_CER: 0.25531452894210815; val_WER: 0.46126699447631836; val_loss: 8.124930381774902
+2025-12-13 01:28:26,381 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 01:28:26,418 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 01:28:26,420 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 03:22:57,085 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 03:22:58,077 - root - INFO - Epoch 52; CER: 0.2517596483230591; WER: 0.4551064670085907; loss: 5.710486888885498; val_CER: 0.25139617919921875; val_WER: 0.45444533228874207; val_loss: 8.893122673034668
+2025-12-13 03:49:52,967 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 03:49:52,998 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 03:49:53,000 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 05:52:27,608 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 05:52:28,491 - root - INFO - Epoch 53; CER: 0.24800051748752594; WER: 0.4486011266708374; loss: 5.747561454772949; val_CER: 0.24762699007987976; val_WER: 0.4479098618030548; val_loss: 8.1724214553833
+2025-12-13 08:17:09,922 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 08:17:09,971 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 08:17:09,973 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 08:21:06,414 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 08:21:07,284 - root - INFO - Epoch 54; CER: 0.24439288675785065; WER: 0.4424069821834564; loss: 5.935743808746338; val_CER: 0.2457544356584549; val_WER: 0.44561439752578735; val_loss: 456.5428466796875
+2025-12-13 09:27:05,356 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 09:27:05,397 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 09:27:05,399 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 10:50:02,413 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 10:50:03,408 - root - INFO - Epoch 55; CER: 0.24256233870983124; WER: 0.4401523768901825; loss: 5.715727806091309; val_CER: 0.24375487864017487; val_WER: 0.4411522150039673; val_loss: 254.54507446289062
+2025-12-13 12:55:11,905 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 12:55:11,947 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 12:55:11,949 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 13:18:48,401 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 13:18:49,358 - root - INFO - Epoch 56; CER: 0.2407108098268509; WER: 0.4360029697418213; loss: 5.998931884765625; val_CER: 0.24172627925872803; val_WER: 0.4375650882720947; val_loss: 159.58616638183594
+2025-12-13 15:37:33,482 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 15:37:33,520 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 15:37:33,522 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 15:47:50,300 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 15:47:51,132 - root - INFO - Epoch 57; CER: 0.23869635164737701; WER: 0.43238916993141174; loss: 5.535984039306641; val_CER: 0.23964880406856537; val_WER: 0.43337729573249817; val_loss: 125.6119384765625
+2025-12-13 18:12:26,659 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 18:12:26,706 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 18:12:26,708 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 18:16:46,880 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 18:16:47,896 - root - INFO - Epoch 58; CER: 0.23664626479148865; WER: 0.42816147208213806; loss: 5.078765869140625; val_CER: 0.23632347583770752; val_WER: 0.42755943536758423; val_loss: 8.229711532592773
+2025-12-13 20:39:32,208 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 20:39:32,252 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 20:39:32,255 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 20:44:57,740 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 20:44:58,702 - root - INFO - Epoch 59; CER: 0.2334374040365219; WER: 0.4225718677043915; loss: 5.162845134735107; val_CER: 0.23314540088176727; val_WER: 0.4220452904701233; val_loss: 9.139266014099121
+2025-12-13 22:18:58,600 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-13 22:18:58,640 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-13 22:18:58,642 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-13 23:13:27,298 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 23:13:28,339 - root - INFO - Epoch 60; CER: 0.23033982515335083; WER: 0.41717684268951416; loss: 5.036785125732422; val_CER: 0.23135730624198914; val_WER: 0.418316513299942; val_loss: 159.75265502929688
+2025-12-14 00:06:01,883 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 00:06:01,921 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 00:06:01,923 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 01:42:06,710 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 01:42:07,656 - root - INFO - Epoch 61; CER: 0.22866380214691162; WER: 0.413709819316864; loss: 5.197659492492676; val_CER: 0.2283744215965271; val_WER: 0.413175106048584; val_loss: 8.524959564208984
+2025-12-14 02:53:30,781 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 02:53:30,819 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 02:53:30,821 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 04:11:28,736 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 04:11:29,689 - root - INFO - Epoch 62; CER: 0.22574548423290253; WER: 0.4086358845233917; loss: 5.0578203201293945; val_CER: 0.225462406873703; val_WER: 0.40811511874198914; val_loss: 8.445557594299316
+2025-12-14 06:32:35,564 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 06:32:35,632 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 06:32:35,634 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 06:42:30,018 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 06:42:31,087 - root - INFO - Epoch 63; CER: 0.22302357852458954; WER: 0.40412113070487976; loss: 5.776466369628906; val_CER: 0.22408676147460938; val_WER: 0.4050721526145935; val_loss: 178.66787719726562
+2025-12-14 08:42:30,632 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 08:42:30,670 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 08:42:30,673 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 09:10:55,476 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 09:10:56,475 - root - INFO - Epoch 64; CER: 0.22168608009815216; WER: 0.40114209055900574; loss: 5.845932960510254; val_CER: 0.22143195569515228; val_WER: 0.40067926049232483; val_loss: 8.971210479736328
+2025-12-14 10:21:01,407 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 10:21:01,452 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 10:21:01,454 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 11:40:27,923 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 11:40:28,930 - root - INFO - Epoch 65; CER: 0.21906916797161102; WER: 0.396770715713501; loss: 5.536753177642822; val_CER: 0.2201046645641327; val_WER: 0.39768627285957336; val_loss: 177.98715209960938
+2025-12-14 11:44:05,966 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 11:44:05,974 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 11:44:05,975 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 14:22:52,951 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 14:22:53,974 - root - INFO - Epoch 66; CER: 0.21771030128002167; WER: 0.3935655653476715; loss: 4.833096504211426; val_CER: 0.2174540013074875; val_WER: 0.3930889964103699; val_loss: 8.561304092407227
+2025-12-14 15:47:02,208 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 15:47:02,255 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 15:47:02,257 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 17:03:30,318 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 17:03:31,896 - root - INFO - Epoch 67; CER: 0.21513396501541138; WER: 0.38913488388061523; loss: 4.785120487213135; val_CER: 0.21488673985004425; val_WER: 0.3886728882789612; val_loss: 8.696725845336914
+2025-12-14 19:12:29,064 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 19:12:29,115 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 19:12:29,117 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 19:40:38,304 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 19:40:39,293 - root - INFO - Epoch 68; CER: 0.21261820197105408; WER: 0.38475850224494934; loss: 4.567955017089844; val_CER: 0.21238203346729279; val_WER: 0.38431474566459656; val_loss: 8.889699935913086
+2025-12-14 21:53:06,743 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 21:53:06,788 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 21:53:06,790 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-14 22:20:21,869 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 22:20:22,921 - root - INFO - Epoch 69; CER: 0.21017906069755554; WER: 0.38052675127983093; loss: 4.50590705871582; val_CER: 0.2112148106098175; val_WER: 0.3814117908477783; val_loss: 202.3338165283203
+2025-12-14 23:50:43,527 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-14 23:50:43,579 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-14 23:50:43,580 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 00:50:28,657 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 00:50:29,577 - root - INFO - Epoch 70; CER: 0.2091425210237503; WER: 0.3779746890068054; loss: 5.139736652374268; val_CER: 0.2102121114730835; val_WER: 0.3801145553588867; val_loss: 259.0433654785156
+2025-12-15 02:23:57,572 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 02:23:57,624 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 02:23:57,625 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 03:20:47,557 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 03:20:48,597 - root - INFO - Epoch 71; CER: 0.20811302959918976; WER: 0.3765293061733246; loss: 4.657037734985352; val_CER: 0.2078946828842163; val_WER: 0.3761195242404938; val_loss: 8.847970008850098
+2025-12-15 04:09:01,891 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 04:09:01,937 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 04:09:01,939 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 05:50:41,218 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 05:50:42,382 - root - INFO - Epoch 72; CER: 0.20582929253578186; WER: 0.37255796790122986; loss: 4.3752288818359375; val_CER: 0.2066783756017685; val_WER: 0.3736148476600647; val_loss: 128.51133728027344
+2025-12-15 07:35:03,669 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 07:35:03,718 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 07:35:03,719 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 08:20:29,945 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 08:20:31,101 - root - INFO - Epoch 73; CER: 0.20467135310173035; WER: 0.37016749382019043; loss: 4.507267951965332; val_CER: 0.20446011424064636; val_WER: 0.3697686791419983; val_loss: 8.687355041503906
+2025-12-15 08:22:04,353 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 08:22:04,358 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 08:22:04,360 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 10:51:53,890 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 10:51:54,911 - root - INFO - Epoch 74; CER: 0.2025243639945984; WER: 0.3664647936820984; loss: 4.575372219085693; val_CER: 0.2035190761089325; val_WER: 0.3673096001148224; val_loss: 246.28439331054688
+2025-12-15 13:01:20,968 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 13:01:21,020 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 13:01:21,022 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 13:20:37,243 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 13:20:38,193 - root - INFO - Epoch 75; CER: 0.20158320665359497; WER: 0.36398664116859436; loss: 4.246536731719971; val_CER: 0.2025107741355896; val_WER: 0.3652118444442749; val_loss: 102.72586822509766
+2025-12-15 13:22:58,703 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 13:22:58,711 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 13:22:58,713 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 15:50:02,543 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 15:50:03,523 - root - INFO - Epoch 76; CER: 0.20058591663837433; WER: 0.3618928790092468; loss: 3.9852983951568604; val_CER: 0.20136865973472595; val_WER: 0.36284589767456055; val_loss: 139.8046112060547
+2025-12-15 16:40:07,785 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 16:40:07,850 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 16:40:07,851 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 18:20:09,664 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 18:20:10,771 - root - INFO - Epoch 77; CER: 0.19948047399520874; WER: 0.3596174716949463; loss: 3.9909496307373047; val_CER: 0.20043137669563293; val_WER: 0.3604385554790497; val_loss: 254.2388916015625
+2025-12-15 18:52:21,601 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 18:52:21,636 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 18:52:21,637 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 20:48:58,928 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 20:49:00,074 - root - INFO - Epoch 78; CER: 0.19875675439834595; WER: 0.3577653467655182; loss: 5.579413414001465; val_CER: 0.19957083463668823; val_WER: 0.35865435004234314; val_loss: 124.42636108398438
+2025-12-15 21:18:43,238 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 21:18:43,293 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 21:18:43,295 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-15 23:17:58,525 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-15 23:17:59,455 - root - INFO - Epoch 79; CER: 0.1977624148130417; WER: 0.3556021749973297; loss: 4.019255638122559; val_CER: 0.19757196307182312; val_WER: 0.35524213314056396; val_loss: 8.980168342590332
+2025-12-15 23:20:09,014 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-15 23:20:09,021 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-15 23:20:09,023 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 01:46:51,458 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 01:46:52,434 - root - INFO - Epoch 80; CER: 0.19578905403614044; WER: 0.3522064983844757; loss: 3.7957663536071777; val_CER: 0.19657257199287415; val_WER: 0.3530063331127167; val_loss: 153.72479248046875
+2025-12-16 04:04:31,114 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 04:04:31,184 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 04:04:31,187 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 04:16:35,442 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 04:16:36,418 - root - INFO - Epoch 81; CER: 0.19483116269111633; WER: 0.3500749468803406; loss: 3.921827793121338; val_CER: 0.19565318524837494; val_WER: 0.35133567452430725; val_loss: 100.51145935058594
+2025-12-16 05:07:24,793 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 05:07:24,844 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 05:07:24,847 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 06:47:48,714 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 06:47:49,677 - root - INFO - Epoch 82; CER: 0.1939248889684677; WER: 0.3483932614326477; loss: 3.7051010131835938; val_CER: 0.1947137862443924; val_WER: 0.34917882084846497; val_loss: 172.25521850585938
+2025-12-16 08:01:59,681 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 08:01:59,718 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 08:01:59,719 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 09:16:31,425 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 09:16:32,370 - root - INFO - Epoch 83; CER: 0.19302912056446075; WER: 0.34631848335266113; loss: 3.788210868835449; val_CER: 0.19385722279548645; val_WER: 0.34730932116508484; val_loss: 150.39266967773438
+2025-12-16 10:42:15,198 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 10:42:15,241 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 10:42:15,243 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 11:45:25,225 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 11:45:26,311 - root - INFO - Epoch 84; CER: 0.1922089010477066; WER: 0.34453651309013367; loss: 3.857226848602295; val_CER: 0.19287662208080292; val_WER: 0.3457171320915222; val_loss: 83.4188232421875
+2025-12-16 13:07:40,485 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 13:07:40,530 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 13:07:40,532 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 14:15:06,771 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 14:15:07,736 - root - INFO - Epoch 85; CER: 0.19122052192687988; WER: 0.3428838849067688; loss: 3.530245065689087; val_CER: 0.1910543292760849; val_WER: 0.3425687849521637; val_loss: 9.425292015075684
+2025-12-16 16:29:47,724 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 16:29:47,767 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 16:29:47,768 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 16:45:17,230 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 16:45:18,243 - root - INFO - Epoch 86; CER: 0.1894378364086151; WER: 0.33981209993362427; loss: 3.4578146934509277; val_CER: 0.19021816551685333; val_WER: 0.3407381772994995; val_loss: 166.7482452392578
+2025-12-16 16:46:07,213 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 16:46:07,221 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 16:46:07,223 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 19:14:40,573 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 19:14:41,455 - root - INFO - Epoch 87; CER: 0.18864047527313232; WER: 0.33807235956192017; loss: 3.652631998062134; val_CER: 0.18903733789920807; val_WER: 0.33867377042770386; val_loss: 60.405643463134766
+2025-12-16 19:22:05,382 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 19:22:05,424 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 19:22:05,426 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-16 21:43:57,814 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-16 21:43:58,799 - root - INFO - Epoch 88; CER: 0.18752902746200562; WER: 0.33619728684425354; loss: 3.9847781658172607; val_CER: 0.1883019655942917; val_WER: 0.33695539832115173; val_loss: 175.32638549804688
+2025-12-16 23:56:26,988 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-16 23:56:27,028 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-16 23:56:27,030 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 00:13:49,657 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 00:13:50,550 - root - INFO - Epoch 89; CER: 0.18678541481494904; WER: 0.334450900554657; loss: 3.6789026260375977; val_CER: 0.18662919104099274; val_WER: 0.3341538906097412; val_loss: 9.444015502929688
+2025-12-17 01:35:35,541 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 01:35:35,598 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 01:35:35,600 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 02:43:39,545 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 02:43:40,696 - root - INFO - Epoch 90; CER: 0.18513233959674835; WER: 0.3316557705402374; loss: 3.4805562496185303; val_CER: 0.18498937785625458; val_WER: 0.33138903975486755; val_loss: 10.03199577331543
+2025-12-17 04:46:09,893 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 04:46:09,939 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 04:46:09,940 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 05:13:28,399 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 05:13:29,563 - root - INFO - Epoch 91; CER: 0.18352685868740082; WER: 0.328946053981781; loss: 3.524218797683716; val_CER: 0.18431738018989563; val_WER: 0.3300101161003113; val_loss: 143.06582641601562
+2025-12-17 06:06:43,686 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 06:06:43,733 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 06:06:43,737 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 07:44:19,541 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 07:44:20,593 - root - INFO - Epoch 92; CER: 0.18288712203502655; WER: 0.3276345133781433; loss: 3.5719549655914307; val_CER: 0.1837126463651657; val_WER: 0.3283575773239136; val_loss: 206.77206420898438
+2025-12-17 08:04:11,808 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 08:04:11,846 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 08:04:11,847 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 10:14:18,848 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 10:14:19,721 - root - INFO - Epoch 93; CER: 0.18231076002120972; WER: 0.32604148983955383; loss: 3.6838254928588867; val_CER: 0.18302516639232635; val_WER: 0.32697415351867676; val_loss: 150.90065002441406
+2025-12-17 12:20:28,114 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 12:20:28,168 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 12:20:28,169 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 12:44:11,172 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 12:44:12,140 - root - INFO - Epoch 94; CER: 0.18163488805294037; WER: 0.3246779441833496; loss: 3.5563344955444336; val_CER: 0.18149583041667938; val_WER: 0.32442018389701843; val_loss: 9.73910140991211
+2025-12-17 14:17:58,998 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 14:17:59,038 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 14:17:59,040 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 15:14:07,906 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 15:14:08,928 - root - INFO - Epoch 95; CER: 0.18012015521526337; WER: 0.32213422656059265; loss: 3.359271287918091; val_CER: 0.18086254596710205; val_WER: 0.32327285408973694; val_loss: 99.67970275878906
+2025-12-17 17:40:51,160 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 17:40:51,208 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 17:40:51,209 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 17:44:01,226 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 17:44:02,269 - root - INFO - Epoch 96; CER: 0.17951422929763794; WER: 0.32104358077049255; loss: 3.37215256690979; val_CER: 0.17937970161437988; val_WER: 0.32079049944877625; val_loss: 10.004817962646484
+2025-12-17 18:23:36,547 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 18:23:36,587 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 18:23:36,589 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 20:13:45,135 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 20:13:46,106 - root - INFO - Epoch 97; CER: 0.17808476090431213; WER: 0.31866347789764404; loss: 3.7259531021118164; val_CER: 0.17876096069812775; val_WER: 0.3196946084499359; val_loss: 181.1450653076172
+2025-12-17 21:56:22,580 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-17 21:56:22,623 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-17 21:56:22,624 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-17 22:43:20,055 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-17 22:43:20,882 - root - INFO - Epoch 98; CER: 0.1774873584508896; WER: 0.31762492656707764; loss: 3.71673846244812; val_CER: 0.17735829949378967; val_WER: 0.3173821270465851; val_loss: 9.766814231872559
+2025-12-18 00:40:11,407 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 00:40:11,446 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 00:40:11,448 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 01:12:51,622 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 01:12:52,600 - root - INFO - Epoch 99; CER: 0.17604312300682068; WER: 0.3151644766330719; loss: 2.9506754875183105; val_CER: 0.1759164035320282; val_WER: 0.3149234652519226; val_loss: 10.097257614135742
+2025-12-18 01:17:36,955 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 01:17:36,976 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 01:17:36,977 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 03:42:51,786 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 03:42:52,934 - root - INFO - Epoch 100; CER: 0.17461970448493958; WER: 0.3127370774745941; loss: 2.8754029273986816; val_CER: 0.1744973361492157; val_WER: 0.31250467896461487; val_loss: 10.267961502075195
+2025-12-18 05:04:10,351 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 05:04:10,394 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 05:04:10,396 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 06:13:53,247 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 06:13:55,107 - root - INFO - Epoch 101; CER: 0.17321693897247314; WER: 0.31034064292907715; loss: 2.722989559173584; val_CER: 0.17309893667697906; val_WER: 0.310115784406662; val_loss: 10.654528617858887
+2025-12-18 07:59:30,122 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 07:59:30,165 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 07:59:30,167 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 08:43:27,244 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:43:28,190 - root - INFO - Epoch 102; CER: 0.17186883091926575; WER: 0.30805525183677673; loss: 3.040560722351074; val_CER: 0.17175018787384033; val_WER: 0.307830274105072; val_loss: 10.127767562866211
+2025-12-18 09:29:34,102 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 09:29:34,176 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 09:29:34,178 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 11:12:29,621 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 11:12:30,498 - root - INFO - Epoch 103; CER: 0.17055949568748474; WER: 0.30587077140808105; loss: 3.2464191913604736; val_CER: 0.17123371362686157; val_WER: 0.3067944347858429; val_loss: 139.6920623779297
+2025-12-18 11:46:42,674 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 11:46:42,716 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 11:46:42,717 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 13:41:42,214 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 13:41:43,222 - root - INFO - Epoch 104; CER: 0.170034721493721; WER: 0.30479592084884644; loss: 2.9307870864868164; val_CER: 0.1699220836162567; val_WER: 0.30458196997642517; val_loss: 10.356992721557617
+2025-12-18 14:41:30,829 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 14:41:30,868 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 14:41:30,870 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 16:11:40,097 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 16:11:41,148 - root - INFO - Epoch 105; CER: 0.16875852644443512; WER: 0.30265113711357117; loss: 3.047642469406128; val_CER: 0.1686488389968872; val_WER: 0.3024393320083618; val_loss: 10.460296630859375
+2025-12-18 16:28:46,663 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 16:28:46,705 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 16:28:46,706 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 18:41:04,869 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 18:41:05,830 - root - INFO - Epoch 106; CER: 0.16749100387096405; WER: 0.3004973530769348; loss: 2.8517751693725586; val_CER: 0.16817662119865417; val_WER: 0.3013034462928772; val_loss: 155.98866271972656
+2025-12-18 20:36:03,298 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 20:36:03,351 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 20:36:03,354 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 21:10:50,172 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 21:10:51,029 - root - INFO - Epoch 107; CER: 0.16701968014240265; WER: 0.2993735671043396; loss: 2.7099995613098145; val_CER: 0.16690988838672638; val_WER: 0.29916056990623474; val_loss: 10.37464427947998
+2025-12-18 22:02:49,164 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-18 22:02:49,212 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-18 22:02:49,213 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-18 23:40:22,220 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 23:40:23,224 - root - INFO - Epoch 108; CER: 0.16582569479942322; WER: 0.29739275574684143; loss: 3.305030345916748; val_CER: 0.16659031808376312; val_WER: 0.298653244972229; val_loss: 189.74436950683594
+2025-12-19 00:26:54,261 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 00:26:54,301 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 00:26:54,302 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 02:09:54,779 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 02:09:55,691 - root - INFO - Epoch 109; CER: 0.1654876470565796; WER: 0.2968132197856903; loss: 2.883821487426758; val_CER: 0.16538333892822266; val_WER: 0.29661324620246887; val_loss: 10.37977123260498
+2025-12-19 02:56:41,506 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 02:56:41,550 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 02:56:41,552 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 04:40:29,097 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 04:40:30,093 - root - INFO - Epoch 110; CER: 0.16427011787891388; WER: 0.2947442829608917; loss: 2.543682336807251; val_CER: 0.16489867866039276; val_WER: 0.2962092459201813; val_loss: 255.04727172851562
+2025-12-19 06:47:49,961 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 06:47:50,006 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 06:47:50,008 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 07:11:25,820 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 07:11:26,798 - root - INFO - Epoch 111; CER: 0.16381187736988068; WER: 0.29438653588294983; loss: 2.6588737964630127; val_CER: 0.16450929641723633; val_WER: 0.29579782485961914; val_loss: 299.38482666015625
+2025-12-19 08:15:01,565 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 08:15:01,610 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 08:15:01,611 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 09:41:27,080 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 09:41:27,958 - root - INFO - Epoch 112; CER: 0.16343921422958374; WER: 0.2940067648887634; loss: 2.7465457916259766; val_CER: 0.16421455144882202; val_WER: 0.2950410544872284; val_loss: 204.3443145751953
+2025-12-19 09:49:22,753 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 09:49:22,795 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 09:49:22,796 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 12:22:32,376 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 12:22:33,449 - root - INFO - Epoch 113; CER: 0.16314107179641724; WER: 0.2932460904121399; loss: 2.5769119262695312; val_CER: 0.1637677699327469; val_WER: 0.2939149737358093; val_loss: 195.0115509033203
+2025-12-19 14:04:10,623 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 14:04:10,693 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 14:04:10,695 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 14:58:30,813 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 14:58:32,283 - root - INFO - Epoch 114; CER: 0.16271927952766418; WER: 0.2921794354915619; loss: 2.688218355178833; val_CER: 0.16338959336280823; val_WER: 0.29279521107673645; val_loss: 229.43223571777344
+2025-12-19 16:04:48,479 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 16:04:48,538 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 16:04:48,539 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 17:30:13,347 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 17:30:14,260 - root - INFO - Epoch 115; CER: 0.16233232617378235; WER: 0.291029155254364; loss: 2.4432756900787354; val_CER: 0.16223560273647308; val_WER: 0.29084068536758423; val_loss: 10.83304214477539
+2025-12-19 18:00:47,337 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 18:00:47,397 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 18:00:47,398 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 20:01:50,830 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 20:01:51,783 - root - INFO - Epoch 116; CER: 0.16120712459087372; WER: 0.2891382575035095; loss: 2.5940439701080322; val_CER: 0.1618545651435852; val_WER: 0.28974586725234985; val_loss: 273.4484558105469
+2025-12-19 20:59:27,681 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 20:59:27,729 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 20:59:27,731 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-19 22:32:00,810 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-19 22:32:01,702 - root - INFO - Epoch 117; CER: 0.1608390510082245; WER: 0.2880607545375824; loss: 2.55564546585083; val_CER: 0.16074664890766144; val_WER: 0.2878834903240204; val_loss: 10.927777290344238
+2025-12-19 22:41:08,571 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-19 22:41:08,580 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-19 22:41:08,581 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 01:02:37,500 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 01:02:38,556 - root - INFO - Epoch 118; CER: 0.1597401201725006; WER: 0.28620049357414246; loss: 2.4726505279541016; val_CER: 0.15965090692043304; val_WER: 0.2860247790813446; val_loss: 10.622161865234375
+2025-12-20 03:15:35,015 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 03:15:35,063 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 03:15:35,074 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 03:33:26,613 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 03:33:27,562 - root - INFO - Epoch 119; CER: 0.1586613804101944; WER: 0.28437891602516174; loss: 2.443629264831543; val_CER: 0.1585736721754074; val_WER: 0.2842097878456116; val_loss: 10.998930931091309
+2025-12-20 04:15:54,734 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 04:15:54,775 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 04:15:54,777 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 06:04:32,409 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 06:04:33,481 - root - INFO - Epoch 120; CER: 0.15762034058570862; WER: 0.2826493978500366; loss: 2.696295976638794; val_CER: 0.15819473564624786; val_WER: 0.28342247009277344; val_loss: 133.04759216308594
+2025-12-20 08:13:36,340 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 08:13:36,384 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 08:13:36,405 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 08:34:38,875 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 08:34:39,837 - root - INFO - Epoch 121; CER: 0.15727046132087708; WER: 0.2819218933582306; loss: 2.991877794265747; val_CER: 0.15718327462673187; val_WER: 0.2817531228065491; val_loss: 10.765832901000977
+2025-12-20 08:55:08,093 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 08:55:08,134 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 08:55:08,137 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 11:05:56,417 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 11:05:57,439 - root - INFO - Epoch 122; CER: 0.1562434285879135; WER: 0.28021541237831116; loss: 2.4838154315948486; val_CER: 0.15683358907699585; val_WER: 0.28098443150520325; val_loss: 136.81475830078125
+2025-12-20 20:48:55,112 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 20:48:55,149 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 20:48:55,151 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 21:22:47,761 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 21:22:48,723 - root - INFO - Epoch 123; CER: 0.15589657425880432; WER: 0.2794300317764282; loss: 2.376878499984741; val_CER: 0.1564483493566513; val_WER: 0.2801593542098999; val_loss: 144.22886657714844
+2025-12-20 22:55:19,677 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-20 22:55:19,750 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-20 22:55:19,751 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-20 23:55:20,134 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-20 23:55:21,186 - root - INFO - Epoch 124; CER: 0.15553392469882965; WER: 0.2786572277545929; loss: 2.6597530841827393; val_CER: 0.15544860064983368; val_WER: 0.27849280834198; val_loss: 10.668963432312012
+2025-12-21 00:25:32,124 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 00:25:32,177 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 00:25:32,178 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 02:27:12,313 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 02:27:13,327 - root - INFO - Epoch 125; CER: 0.15451529622077942; WER: 0.276937872171402; loss: 2.117255210876465; val_CER: 0.15443289279937744; val_WER: 0.27677395939826965; val_loss: 10.986948013305664
+2025-12-21 02:48:06,794 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 02:48:06,836 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 02:48:06,838 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 04:59:28,781 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 04:59:29,909 - root - INFO - Epoch 126; CER: 0.1535034030675888; WER: 0.27521273493766785; loss: 2.0182957649230957; val_CER: 0.15342392027378082; val_WER: 0.27505531907081604; val_loss: 11.288500785827637
+2025-12-21 07:25:32,716 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 07:25:32,771 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 07:25:32,773 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 07:32:25,436 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 07:32:26,416 - root - INFO - Epoch 127; CER: 0.15253567695617676; WER: 0.2736011743545532; loss: 2.357102155685425; val_CER: 0.1531156301498413; val_WER: 0.2741687297821045; val_loss: 204.64833068847656
+2025-12-21 08:10:03,199 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 08:10:03,247 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 08:10:03,250 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 10:04:23,163 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 10:04:24,390 - root - INFO - Epoch 128; CER: 0.1522241234779358; WER: 0.27269119024276733; loss: 2.148467540740967; val_CER: 0.15214484930038452; val_WER: 0.2725360095500946; val_loss: 10.983917236328125
+2025-12-21 10:16:41,168 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 10:16:41,230 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 10:16:41,231 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 12:35:13,653 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 12:35:14,649 - root - INFO - Epoch 129; CER: 0.15129350125789642; WER: 0.27114713191986084; loss: 2.5431883335113525; val_CER: 0.15180604159832; val_WER: 0.2719525694847107; val_loss: 99.83262634277344
+2025-12-21 12:46:49,909 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 12:46:49,947 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 12:46:49,949 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 15:07:53,222 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 15:07:54,216 - root - INFO - Epoch 130; CER: 0.15093933045864105; WER: 0.2705342471599579; loss: 2.1889705657958984; val_CER: 0.15086300671100616; val_WER: 0.2703830301761627; val_loss: 11.212852478027344
+2025-12-21 15:28:25,618 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 15:28:25,673 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 15:28:25,674 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 17:38:28,891 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 17:38:29,939 - root - INFO - Epoch 131; CER: 0.1500089317560196; WER: 0.26896899938583374; loss: 2.1988916397094727; val_CER: 0.15059193968772888; val_WER: 0.2695377469062805; val_loss: 198.46347045898438
+2025-12-21 19:01:07,911 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 19:01:07,958 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 19:01:07,960 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 20:10:00,408 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 20:10:01,445 - root - INFO - Epoch 132; CER: 0.14976085722446442; WER: 0.26818835735321045; loss: 2.39041805267334; val_CER: 0.1496892124414444; val_WER: 0.2680492401123047; val_loss: 11.301840782165527
+2025-12-21 21:01:03,535 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-21 21:01:03,582 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-21 21:01:03,584 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-21 22:42:26,120 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-21 22:42:27,258 - root - INFO - Epoch 133; CER: 0.1488785594701767; WER: 0.2667437493801117; loss: 2.450092315673828; val_CER: 0.14880642294883728; val_WER: 0.2666018605232239; val_loss: 11.502140045166016
+2025-12-22 00:56:51,714 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 00:56:51,770 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 00:56:51,772 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 01:13:54,798 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 01:13:55,783 - root - INFO - Epoch 134; CER: 0.14797081053256989; WER: 0.26521557569503784; loss: 2.0040063858032227; val_CER: 0.14853784441947937; val_WER: 0.2657609283924103; val_loss: 165.77490234375
+2025-12-22 02:04:44,776 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 02:04:44,813 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 02:04:44,816 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 03:45:40,493 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 03:45:45,980 - root - INFO - Epoch 135; CER: 0.14770998060703278; WER: 0.2643848955631256; loss: 2.0131900310516357; val_CER: 0.14763882756233215; val_WER: 0.2642439007759094; val_loss: 11.473104476928711
+2025-12-22 04:49:33,075 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 04:49:33,138 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 04:49:33,141 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 06:18:29,224 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 06:18:30,244 - root - INFO - Epoch 136; CER: 0.14682231843471527; WER: 0.2628912925720215; loss: 1.9570016860961914; val_CER: 0.1467522233724594; val_WER: 0.2627556324005127; val_loss: 11.59770393371582
+2025-12-22 07:19:16,920 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 07:19:16,987 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 07:19:16,989 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 08:50:01,452 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 08:50:02,514 - root - INFO - Epoch 137; CER: 0.14598684012889862; WER: 0.2615518867969513; loss: 2.4586687088012695; val_CER: 0.14591912925243378; val_WER: 0.26142099499702454; val_loss: 11.400816917419434
+2025-12-22 09:36:11,691 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 09:36:11,732 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 09:36:11,734 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 11:21:44,143 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 11:21:45,050 - root - INFO - Epoch 138; CER: 0.14515821635723114; WER: 0.26020777225494385; loss: 2.477590322494507; val_CER: 0.14570318162441254; val_WER: 0.2607400715351105; val_loss: 248.9493865966797
+2025-12-22 12:42:07,171 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 12:42:07,217 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 12:42:07,219 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 13:53:32,179 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 13:53:33,123 - root - INFO - Epoch 139; CER: 0.1449306160211563; WER: 0.2594793736934662; loss: 2.2054779529571533; val_CER: 0.14550715684890747; val_WER: 0.2600090801715851; val_loss: 252.550537109375
+2025-12-22 14:34:07,351 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 14:34:07,388 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 14:34:07,390 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 16:26:55,896 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 16:26:56,945 - root - INFO - Epoch 140; CER: 0.1447567492723465; WER: 0.25882089138031006; loss: 2.3765721321105957; val_CER: 0.1446891874074936; val_WER: 0.258686363697052; val_loss: 11.505227088928223
+2025-12-22 17:15:37,869 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 17:15:37,910 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 17:15:37,912 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 18:57:31,327 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 18:57:32,459 - root - INFO - Epoch 141; CER: 0.14391379058361053; WER: 0.2574204206466675; loss: 1.8439772129058838; val_CER: 0.1438492387533188; val_WER: 0.2572922110557556; val_loss: 11.731602668762207
+2025-12-22 19:32:12,214 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 19:32:12,251 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 19:32:12,252 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-22 21:29:41,425 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-22 21:29:42,304 - root - INFO - Epoch 142; CER: 0.14310264587402344; WER: 0.2560791075229645; loss: 2.1417722702026367; val_CER: 0.1436607986688614; val_WER: 0.2565993666648865; val_loss: 209.425048828125
+2025-12-22 22:54:23,658 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-22 22:54:23,701 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-22 22:54:23,703 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 00:02:24,785 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 00:02:25,775 - root - INFO - Epoch 143; CER: 0.142909973859787; WER: 0.25537410378456116; loss: 1.9835209846496582; val_CER: 0.1428462415933609; val_WER: 0.2552480399608612; val_loss: 11.578958511352539
+2025-12-23 01:03:10,925 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 01:03:10,968 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 01:03:10,970 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 02:34:16,619 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 02:34:17,502 - root - INFO - Epoch 144; CER: 0.14210925996303558; WER: 0.25404226779937744; loss: 1.9992091655731201; val_CER: 0.14264632761478424; val_WER: 0.2545579671859741; val_loss: 221.68276977539062
+2025-12-23 03:14:38,960 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 03:14:39,004 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 03:14:39,006 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 05:06:55,484 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 05:06:56,522 - root - INFO - Epoch 145; CER: 0.14192862808704376; WER: 0.2534041702747345; loss: 2.204435348510742; val_CER: 0.14243583381175995; val_WER: 0.2540454864501953; val_loss: 238.35125732421875
+2025-12-23 05:46:56,540 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 05:46:56,589 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 05:46:56,591 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 07:39:35,755 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 07:39:36,958 - root - INFO - Epoch 146; CER: 0.14169803261756897; WER: 0.2528451383113861; loss: 1.7976287603378296; val_CER: 0.14163687825202942; val_WER: 0.2527237832546234; val_loss: 11.940749168395996
+2025-12-23 08:38:43,149 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 08:38:43,199 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 08:38:43,201 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 10:12:09,395 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 10:12:11,620 - root - INFO - Epoch 147; CER: 0.1409115195274353; WER: 0.2515445947647095; loss: 1.8679935932159424; val_CER: 0.14085108041763306; val_WER: 0.25142595171928406; val_loss: 11.874051094055176
+2025-12-23 11:09:39,378 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 11:09:39,422 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 11:09:39,425 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 12:44:14,892 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 12:44:15,823 - root - INFO - Epoch 148; CER: 0.1401328146457672; WER: 0.25025907158851624; loss: 1.8204498291015625; val_CER: 0.14063167572021484; val_WER: 0.2508602738380432; val_loss: 152.07777404785156
+2025-12-23 14:21:27,829 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 14:21:27,882 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 14:21:27,883 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 15:16:01,919 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 15:16:03,021 - root - INFO - Epoch 149; CER: 0.13994410634040833; WER: 0.24976328015327454; loss: 2.235513210296631; val_CER: 0.13988621532917023; val_WER: 0.24964748322963715; val_loss: 11.593511581420898
+2025-12-23 16:36:18,575 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 16:36:18,625 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 16:36:18,626 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 17:48:42,917 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 17:48:43,961 - root - INFO - Epoch 150; CER: 0.13920016586780548; WER: 0.24855542182922363; loss: 2.066869020462036; val_CER: 0.13914278149604797; val_WER: 0.24844010174274445; val_loss: 11.723723411560059
+2025-12-23 18:17:52,424 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 18:17:52,466 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 18:17:52,467 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 20:21:25,166 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 20:21:26,268 - root - INFO - Epoch 151; CER: 0.13844214379787445; WER: 0.24729062616825104; loss: 1.7186524868011475; val_CER: 0.13838520646095276; val_WER: 0.24717727303504944; val_loss: 11.956274032592773
+2025-12-23 21:25:11,540 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 21:25:11,579 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 21:25:11,582 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-23 22:54:20,776 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-23 22:54:21,854 - root - INFO - Epoch 152; CER: 0.1376863718032837; WER: 0.24602925777435303; loss: 1.589089274406433; val_CER: 0.13817469775676727; val_WER: 0.24653425812721252; val_loss: 189.96987915039062
+2025-12-23 23:57:42,194 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-23 23:57:42,244 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-23 23:57:42,246 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 01:26:10,326 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 01:26:11,253 - root - INFO - Epoch 153; CER: 0.13749299943447113; WER: 0.24542593955993652; loss: 1.7904412746429443; val_CER: 0.13789084553718567; val_WER: 0.24595507979393005; val_loss: 160.8014373779297
+2025-12-24 03:49:00,933 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 03:49:00,975 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 03:49:00,976 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 03:58:39,437 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 03:58:40,452 - root - INFO - Epoch 154; CER: 0.13721996545791626; WER: 0.24487073719501495; loss: 1.887953281402588; val_CER: 0.13774509727954865; val_WER: 0.24535851180553436; val_loss: 235.23309326171875
+2025-12-24 05:53:59,759 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 05:53:59,809 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 05:53:59,811 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 06:31:28,012 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 06:31:28,894 - root - INFO - Epoch 155; CER: 0.13710251450538635; WER: 0.24434304237365723; loss: 2.1906886100769043; val_CER: 0.13759638369083405; val_WER: 0.2448274940252304; val_loss: 266.2039794921875
+2025-12-24 07:37:59,038 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 07:37:59,095 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 07:37:59,096 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 09:03:57,548 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 09:03:58,661 - root - INFO - Epoch 156; CER: 0.1369401067495346; WER: 0.24377499520778656; loss: 1.8757598400115967; val_CER: 0.13745996356010437; val_WER: 0.24425670504570007; val_loss: 296.85980224609375
+2025-12-24 09:13:29,921 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 09:13:29,957 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 09:13:29,959 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 11:36:33,200 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 11:36:34,764 - root - INFO - Epoch 157; CER: 0.13680556416511536; WER: 0.24320557713508606; loss: 1.8717374801635742; val_CER: 0.137441486120224; val_WER: 0.24411600828170776; val_loss: 268.6568298339844
+2025-12-24 13:30:15,724 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 13:30:15,782 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 13:30:15,784 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 14:08:35,736 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 14:08:36,650 - root - INFO - Epoch 158; CER: 0.13678212463855743; WER: 0.24305875599384308; loss: 1.6818710565567017; val_CER: 0.13672754168510437; val_WER: 0.24295204877853394; val_loss: 11.784568786621094
+2025-12-24 16:18:24,644 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 16:18:24,688 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 16:18:24,690 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 16:40:29,619 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 16:40:30,779 - root - INFO - Epoch 159; CER: 0.13606546819210052; WER: 0.24186837673187256; loss: 1.4824938774108887; val_CER: 0.13649427890777588; val_WER: 0.24240131676197052; val_loss: 176.4636993408203
+2025-12-24 18:06:00,786 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 18:06:00,834 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 18:06:00,836 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 19:13:16,052 - root - INFO - Epoch 160; CER: 0.13583597540855408; WER: 0.2413296103477478; loss: 1.4395149946212769; val_CER: 0.13679325580596924; val_WER: 0.24258367717266083; val_loss: 459.7282409667969
+2025-12-24 19:36:31,881 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 19:36:31,924 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 19:36:31,925 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-24 21:45:45,658 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-24 21:45:46,772 - root - INFO - Epoch 161; CER: 0.13615985214710236; WER: 0.2415788620710373; loss: 1.8210088014602661; val_CER: 0.13610941171646118; val_WER: 0.24148088693618774; val_loss: 11.962153434753418
+2025-12-24 22:09:30,908 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-24 22:09:30,953 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-24 22:09:30,955 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 00:17:45,617 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 00:17:46,734 - root - INFO - Epoch 162; CER: 0.13547801971435547; WER: 0.24047024548053741; loss: 1.771784782409668; val_CER: 0.13542617857456207; val_WER: 0.24036766588687897; val_loss: 11.902379035949707
+2025-12-25 01:42:13,087 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 01:42:13,155 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 01:42:13,158 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 02:49:59,608 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 02:50:00,693 - root - INFO - Epoch 163; CER: 0.13479618728160858; WER: 0.23934845626354218; loss: 1.638350486755371; val_CER: 0.1347452700138092; val_WER: 0.23924654722213745; val_loss: 11.854201316833496
+2025-12-25 03:09:19,061 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 03:09:19,106 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 03:09:19,108 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 05:23:55,060 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 05:23:56,116 - root - INFO - Epoch 164; CER: 0.13410750031471252; WER: 0.23822073638439178; loss: 1.3758695125579834; val_CER: 0.13474485278129578; val_WER: 0.2393413633108139; val_loss: 181.20230102539062
+2025-12-25 07:14:51,643 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 07:14:51,699 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 07:14:51,711 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 07:56:17,094 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 07:56:18,029 - root - INFO - Epoch 165; CER: 0.13412420451641083; WER: 0.2383377104997635; loss: 1.669005036354065; val_CER: 0.13458824157714844; val_WER: 0.23879657685756683; val_loss: 285.295166015625
+2025-12-25 08:48:50,365 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 08:48:50,427 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 08:48:50,429 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 10:28:19,817 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 10:28:20,879 - root - INFO - Epoch 166; CER: 0.13401640951633453; WER: 0.23796306550502777; loss: 2.3254032135009766; val_CER: 0.13450223207473755; val_WER: 0.23841942846775055; val_loss: 271.9468688964844
+2025-12-25 12:20:31,010 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 12:20:31,056 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 12:20:31,059 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 13:00:40,868 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 13:00:41,907 - root - INFO - Epoch 167; CER: 0.1338804066181183; WER: 0.23740902543067932; loss: 1.4685850143432617; val_CER: 0.1338314563035965; val_WER: 0.23731082677841187; val_loss: 12.168075561523438
+2025-12-25 14:01:30,980 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 14:01:31,018 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 14:01:31,020 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 15:32:58,134 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 15:32:59,298 - root - INFO - Epoch 168; CER: 0.13320422172546387; WER: 0.2362823337316513; loss: 1.2305097579956055; val_CER: 0.13380569219589233; val_WER: 0.23724010586738586; val_loss: 205.31051635742188
+2025-12-25 17:31:41,389 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 17:31:41,449 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 17:31:41,450 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 18:05:59,474 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 18:06:00,520 - root - INFO - Epoch 169; CER: 0.13318714499473572; WER: 0.2362261414527893; loss: 1.2857602834701538; val_CER: 0.1331397145986557; val_WER: 0.2361311912536621; val_loss: 12.518158912658691
+2025-12-25 18:51:10,648 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 18:51:10,707 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 18:51:10,708 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 20:39:05,807 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 20:39:06,751 - root - INFO - Epoch 170; CER: 0.13254773616790771; WER: 0.2351864129304886; loss: 1.6435574293136597; val_CER: 0.1330026239156723; val_WER: 0.2356337308883667; val_loss: 229.68687438964844
+2025-12-25 22:14:22,390 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-25 22:14:22,450 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-25 22:14:22,452 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-25 23:12:02,343 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-25 23:12:03,376 - root - INFO - Epoch 171; CER: 0.1324053406715393; WER: 0.23466862738132477; loss: 1.533225655555725; val_CER: 0.1325264275074005; val_WER: 0.23484063148498535; val_loss: 41.01363754272461
+2025-12-26 00:00:57,778 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 00:00:57,856 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 00:00:57,857 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 01:44:30,330 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 01:44:31,303 - root - INFO - Epoch 172; CER: 0.13196991384029388; WER: 0.23398946225643158; loss: 2.2388155460357666; val_CER: 0.13192516565322876; val_WER: 0.233899787068367; val_loss: 12.222882270812988
+2025-12-26 01:56:07,069 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 01:56:07,077 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 01:56:07,078 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 04:16:33,950 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 04:16:35,070 - root - INFO - Epoch 173; CER: 0.13133563101291656; WER: 0.23294885456562042; loss: 1.4210575819015503; val_CER: 0.13128915429115295; val_WER: 0.23285727202892303; val_loss: 12.322249412536621
+2025-12-26 06:08:12,632 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 06:08:12,709 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 06:08:12,711 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 06:49:52,493 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 06:49:53,349 - root - INFO - Epoch 174; CER: 0.13069871068000793; WER: 0.23189608752727509; loss: 1.254317283630371; val_CER: 0.13065341114997864; val_WER: 0.23180295526981354; val_loss: 12.48390007019043
+2025-12-26 07:56:01,957 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 07:56:02,004 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 07:56:02,005 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 09:22:36,873 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 09:22:37,856 - root - INFO - Epoch 175; CER: 0.13006936013698578; WER: 0.23085279762744904; loss: 1.2477564811706543; val_CER: 0.13002470135688782; val_WER: 0.2307620644569397; val_loss: 12.411162376403809
+2025-12-26 10:32:35,636 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 10:32:35,681 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 10:32:35,683 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 11:55:17,177 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 11:55:18,252 - root - INFO - Epoch 176; CER: 0.12944675981998444; WER: 0.2298206090927124; loss: 1.2841764688491821; val_CER: 0.12940262258052826; val_WER: 0.22973181307315826; val_loss: 12.642349243164062
+2025-12-26 12:05:35,907 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 12:05:35,916 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 12:05:35,919 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 14:28:19,021 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 14:28:19,903 - root - INFO - Epoch 177; CER: 0.12885186076164246; WER: 0.22886034846305847; loss: 1.6617178916931152; val_CER: 0.12880893051624298; val_WER: 0.22877703607082367; val_loss: 12.5820951461792
+2025-12-26 14:51:13,924 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 14:51:13,965 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 14:51:13,967 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 17:00:38,330 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 17:00:39,329 - root - INFO - Epoch 178; CER: 0.12826476991176605; WER: 0.22790776193141937; loss: 1.684707760810852; val_CER: 0.12870672345161438; val_WER: 0.22837060689926147; val_loss: 234.1535186767578
+2025-12-26 19:28:02,186 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 19:28:02,254 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 19:28:02,256 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 19:33:09,509 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 19:33:10,657 - root - INFO - Epoch 179; CER: 0.12815766036510468; WER: 0.22748816013336182; loss: 1.502785086631775; val_CER: 0.12854905426502228; val_WER: 0.22808878123760223; val_loss: 157.16932678222656
+2025-12-26 21:45:52,459 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-26 21:45:52,506 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-26 21:45:52,508 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-26 22:06:16,859 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-26 22:06:17,865 - root - INFO - Epoch 180; CER: 0.1280074119567871; WER: 0.2272317260503769; loss: 1.5827645063400269; val_CER: 0.1283618062734604; val_WER: 0.22769257426261902; val_loss: 149.86985778808594
+2025-12-27 00:03:17,102 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 00:03:17,147 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 00:03:17,148 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 00:39:14,716 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 00:39:15,821 - root - INFO - Epoch 181; CER: 0.1278190314769745; WER: 0.22682341933250427; loss: 1.4657150506973267; val_CER: 0.12777714431285858; val_WER: 0.22673927247524261; val_loss: 12.528393745422363
+2025-12-27 00:47:35,853 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 00:47:35,897 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 00:47:35,899 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 03:12:09,257 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 03:12:10,327 - root - INFO - Epoch 182; CER: 0.12724202871322632; WER: 0.22588509321212769; loss: 1.5009194612503052; val_CER: 0.12759383022785187; val_WER: 0.22631879150867462; val_loss: 176.5233917236328
+2025-12-27 03:25:15,734 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 03:25:15,776 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 03:25:15,778 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 05:45:53,292 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 05:45:54,232 - root - INFO - Epoch 183; CER: 0.12706172466278076; WER: 0.22546735405921936; loss: 1.4833391904830933; val_CER: 0.12702211737632751; val_WER: 0.22538895905017853; val_loss: 12.643316268920898
+2025-12-27 05:58:06,799 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 05:58:06,815 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 05:58:06,816 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 08:19:30,385 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 08:19:31,586 - root - INFO - Epoch 184; CER: 0.1265004277229309; WER: 0.22456201910972595; loss: 1.6596994400024414; val_CER: 0.1264624446630478; val_WER: 0.2244848906993866; val_loss: 12.654707908630371
+2025-12-27 09:54:10,779 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 09:54:10,829 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 09:54:10,831 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 10:52:29,113 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 10:52:30,238 - root - INFO - Epoch 185; CER: 0.12593764066696167; WER: 0.22364360094070435; loss: 1.3907718658447266; val_CER: 0.12637266516685486; val_WER: 0.2240610271692276; val_loss: 284.6387023925781
+2025-12-27 12:42:55,624 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 12:42:55,660 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 12:42:55,662 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 13:26:56,680 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 13:26:57,703 - root - INFO - Epoch 186; CER: 0.12585566937923431; WER: 0.22323742508888245; loss: 1.4546358585357666; val_CER: 0.12581677734851837; val_WER: 0.22316013276576996; val_loss: 12.492086410522461
+2025-12-27 15:30:46,696 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 15:30:46,762 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 15:30:46,764 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 15:59:17,677 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 15:59:18,762 - root - INFO - Epoch 187; CER: 0.12530271708965302; WER: 0.22234196960926056; loss: 1.4078398942947388; val_CER: 0.12563875317573547; val_WER: 0.22279389202594757; val_loss: 158.89373779296875
+2025-12-27 17:19:46,339 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 17:19:46,405 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 17:19:46,407 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 18:31:57,527 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 18:31:58,604 - root - INFO - Epoch 188; CER: 0.1251404583454132; WER: 0.22201688587665558; loss: 1.6445589065551758; val_CER: 0.1251029372215271; val_WER: 0.2219398468732834; val_loss: 12.783716201782227
+2025-12-27 20:10:21,757 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 20:10:21,801 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 20:10:21,802 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 21:05:15,982 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 21:05:17,257 - root - INFO - Epoch 189; CER: 0.12459146976470947; WER: 0.22112107276916504; loss: 1.302958607673645; val_CER: 0.12455330044031143; val_WER: 0.22104361653327942; val_loss: 12.424132347106934
+2025-12-27 22:36:22,379 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-27 22:36:22,416 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-27 22:36:22,418 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-27 23:38:32,765 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-27 23:38:33,924 - root - INFO - Epoch 190; CER: 0.12404357641935349; WER: 0.22022265195846558; loss: 1.2597795724868774; val_CER: 0.12400735914707184; val_WER: 0.22014860808849335; val_loss: 12.855562210083008
+2025-12-28 00:52:39,331 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 00:52:39,392 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 00:52:39,395 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 02:11:22,633 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 02:11:23,817 - root - INFO - Epoch 191; CER: 0.12350812554359436; WER: 0.21935950219631195; loss: 1.3911739587783813; val_CER: 0.12392663955688477; val_WER: 0.21976613998413086; val_loss: 275.0081481933594
+2025-12-28 04:09:08,869 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 04:09:08,917 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 04:09:08,920 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 04:44:05,849 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 04:44:07,025 - root - INFO - Epoch 192; CER: 0.12342207133769989; WER: 0.21895048022270203; loss: 1.1756901741027832; val_CER: 0.12338574975728989; val_WER: 0.21887700259685516; val_loss: 12.865259170532227
+2025-12-28 05:34:32,269 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 05:34:32,318 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 05:34:32,320 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 07:17:27,189 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 07:17:28,278 - root - INFO - Epoch 193; CER: 0.1228901743888855; WER: 0.21808116137981415; loss: 1.2873589992523193; val_CER: 0.12285373359918594; val_WER: 0.21800649166107178; val_loss: 12.689746856689453
+2025-12-28 09:39:38,960 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 09:39:39,016 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 09:39:39,018 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 09:51:26,264 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 09:51:27,586 - root - INFO - Epoch 194; CER: 0.1223655641078949; WER: 0.2172301560640335; loss: 1.340158224105835; val_CER: 0.1227043867111206; val_WER: 0.21763889491558075; val_loss: 176.1864776611328
+2025-12-28 10:23:30,309 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 10:23:30,387 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 10:23:30,389 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 12:25:07,058 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 12:25:08,165 - root - INFO - Epoch 195; CER: 0.12222050875425339; WER: 0.2168758511543274; loss: 1.3646011352539062; val_CER: 0.12261193245649338; val_WER: 0.21728187799453735; val_loss: 195.85374450683594
+2025-12-28 13:06:08,218 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 13:06:08,289 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 13:06:08,293 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 14:58:21,679 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 14:58:22,707 - root - INFO - Epoch 196; CER: 0.12212608754634857; WER: 0.21650315821170807; loss: 1.251518726348877; val_CER: 0.12252820283174515; val_WER: 0.21690091490745544; val_loss: 261.0965881347656
+2025-12-28 16:48:37,583 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 16:48:37,630 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 16:48:37,631 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 17:32:22,525 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 17:32:23,463 - root - INFO - Epoch 197; CER: 0.12204618006944656; WER: 0.21612548828125; loss: 1.3216843605041504; val_CER: 0.12245240807533264; val_WER: 0.21652598679065704; val_loss: 278.7998962402344
+2025-12-28 18:23:01,625 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 18:23:01,678 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 18:23:01,680 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 20:05:14,098 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 20:05:15,115 - root - INFO - Epoch 198; CER: 0.1219773143529892; WER: 0.21577586233615875; loss: 1.3132054805755615; val_CER: 0.1219419538974762; val_WER: 0.21570298075675964; val_loss: 12.778146743774414
+2025-12-28 21:36:04,783 - ImageReader - WARNING - Image Datasets/LT_Sentences\images\sentence_00422.png could not be read, returning None.
+2025-12-28 21:36:04,845 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-12-28 21:36:04,846 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-12-28 22:39:29,533 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-28 22:39:30,661 - root - INFO - Epoch 199; CER: 0.1214648187160492; WER: 0.2149442583322525; loss: 1.22430419921875; val_CER: 0.12142956256866455; val_WER: 0.21487155556678772; val_loss: 12.834233283996582
