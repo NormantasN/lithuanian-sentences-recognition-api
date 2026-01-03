@@ -60,6 +60,7 @@ def load_model(model_dir):
     configs_path = os.path.join(model_dir, "configs.yaml")
     if not os.path.exists(configs_path):
         raise FileNotFoundError(f"Konfigūracija nerasta: {configs_path}")
+    configs.model_path = os.path.normpath(configs.model_path)
 
     configs = BaseModelConfigs.load(configs_path)
     print(f"Konfigūracija įkelta")
@@ -69,6 +70,10 @@ def load_model(model_dir):
 
     onnx_path = os.path.join(configs.model_path, "model.onnx")
     h5_path = os.path.join(configs.model_path, "model.h5")
+    print("DEBUG cwd:", os.getcwd())
+    print("DEBUG model_path:", configs.model_path)
+    print("DEBUG h5 exists:", os.path.exists(h5_path))
+    print("DEBUG onnx exists:", os.path.exists(onnx_path))
 
     if not os.path.exists(onnx_path):
         print("ONNX failas nerastas. Konvertuojama iš .h5...")
