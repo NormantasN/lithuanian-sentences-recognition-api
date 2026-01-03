@@ -1,0 +1,10 @@
+flask
+flask-cors
+gunicorn
+tensorflow
+tf2onnx
+onnxruntime
+opencv-python-headless
+numpy
+mltu
+pyyaml

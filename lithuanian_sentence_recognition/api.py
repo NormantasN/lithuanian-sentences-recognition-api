@@ -275,40 +275,42 @@ def batch_predict():
         }), 500
 
 
-if __name__ == '__main__':
-    import argparse
+# if __name__ == '__main__':
+#     import argparse
+#
+#     parser = argparse.ArgumentParser(description='Lietuviškų sakinių atpažinimo API serveris')
+#     parser.add_argument('--model_path', type=str, default=MODEL_DIR,
+#                         help='Kelias iki modelio katalogo')
+#     parser.add_argument('--host', type=str, default='0.0.0.0',
+#                         help='Serverio adresas (default: 0.0.0.0)')
+#     parser.add_argument('--port', type=int, default=8000,
+#                         help='Serverio portas (default: 8000)')
+#     parser.add_argument('--debug', action='store_true',
+#                         help='Debug režimas')
+#
+#     args = parser.parse_args()
+#
+#     # Įkeliame modelį
+#     try:
+#         load_model(args.model_path)
+#     except Exception as e:
+#         print(f"Nepavyko įkelti modelio: {e}")
+#         import traceback
+#
+#         traceback.print_exc()
+#         exit(1)
+#
+#     print("=" * 60)
+#     print(f"API serveris veikia: http://{args.host}:{args.port}")
+#     print("=" * 60)
+#     print("\n Galimi endpoint'ai:")
+#     print(f"  GET  /health         - Serverio būsenos tikrinimas")
+#     print(f"  GET  /info           - Modelio informacija")
+#     print(f"  POST /predict        - Atpažinti vieną vaizdą")
+#     print(f"  POST /batch_predict  - Atpažinti kelis vaizdus")
+#     print("=" * 60 + "\n")
+#
+#     # Paleidžiame serverį
+#     app.run(host=args.host, port=args.port, debug=args.debug)
 
-    parser = argparse.ArgumentParser(description='Lietuviškų sakinių atpažinimo API serveris')
-    parser.add_argument('--model_path', type=str, default=MODEL_DIR,
-                        help='Kelias iki modelio katalogo')
-    parser.add_argument('--host', type=str, default='0.0.0.0',
-                        help='Serverio adresas (default: 0.0.0.0)')
-    parser.add_argument('--port', type=int, default=8000,
-                        help='Serverio portas (default: 8000)')
-    parser.add_argument('--debug', action='store_true',
-                        help='Debug režimas')
-
-    args = parser.parse_args()
-
-    # Įkeliame modelį
-    try:
-        load_model(args.model_path)
-    except Exception as e:
-        print(f"Nepavyko įkelti modelio: {e}")
-        import traceback
-
-        traceback.print_exc()
-        exit(1)
-
-    print("=" * 60)
-    print(f"API serveris veikia: http://{args.host}:{args.port}")
-    print("=" * 60)
-    print("\n Galimi endpoint'ai:")
-    print(f"  GET  /health         - Serverio būsenos tikrinimas")
-    print(f"  GET  /info           - Modelio informacija")
-    print(f"  POST /predict        - Atpažinti vieną vaizdą")
-    print(f"  POST /batch_predict  - Atpažinti kelis vaizdus")
-    print("=" * 60 + "\n")
-
-    # Paleidžiame serverį
-    app.run(host=args.host, port=args.port, debug=args.debug)
+load_model(MODEL_DIR)
