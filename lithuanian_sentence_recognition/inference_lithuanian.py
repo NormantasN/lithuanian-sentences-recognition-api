@@ -7,7 +7,7 @@ import tf2onnx
 
 from mltu.inferenceModel import OnnxInferenceModel
 from mltu.utils.text_utils import ctc_decoder, get_cer, get_wer
-from mltu.transformers import ImageResizer  # SVARBU: Pridėta import
+from mltu.transformers import ImageResizer
 
 
 class LithuanianSentenceModel(OnnxInferenceModel):
@@ -16,27 +16,13 @@ class LithuanianSentenceModel(OnnxInferenceModel):
         self.char_list = char_list
 
     def predict(self, image: np.ndarray):
-        """
-        Atpažįsta tekstą iš vaizdo
-
-        Args:
-            image: OpenCV formatu (numpy array)
-
-        Returns:
-            str: Atpažintas tekstas
-        """
         image = ImageResizer.resize_maintaining_aspect_ratio(
             image,
             *self.input_shapes[0][1:3][::-1]
         )
 
-        # Paruošiame vaizdą modeliui
         image_pred = np.expand_dims(image, axis=0).astype(np.float32)
-
-        # Atliekame prognozę
         preds = self.model.run(self.output_names, {self.input_names[0]: image_pred})[0]
-
-        # Dekoduojame CTC išvestį į tekstą
         text = ctc_decoder(preds, self.char_list)[0]
 
         return text
@@ -54,7 +40,6 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"Modelio katalogas: {MODEL_DIR}\n")
 
-    # Įkeliame konfigūraciją
     configs = BaseModelConfigs.load(os.path.join(MODEL_DIR, "configs.yaml"))
 
     print(f" Konfigūracija įkelta")
@@ -101,7 +86,6 @@ if __name__ == "__main__":
     print("PRADEDAMAS TESTAVIMAS")
     print("=" * 60)
 
-    # Testuojame modelį
     accum_cer = []
     accum_wer = []
     correct_predictions = 0
@@ -140,7 +124,6 @@ if __name__ == "__main__":
     print(f"Tikslumas (Exact Match): {correct_predictions}/{len(df)} ({100 * correct_predictions / len(df):.2f}%)")
     print("=" * 60)
 
-    # Papildoma statistika
     print("\nPapildoma statistika:")
     print(
         f"  CER < 0.1: {sum(1 for c in accum_cer if c < 0.1)}/{len(accum_cer)} ({100 * sum(1 for c in accum_cer if c < 0.1) / len(accum_cer):.1f}%)")

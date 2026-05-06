@@ -1,15 +1,16 @@
-import os
 import base64
+import os
+
+import cv2
+import numpy as np
 import tensorflow as tf
 import tf2onnx
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+
 from mltu.configs import BaseModelConfigs
 from mltu.inferenceModel import OnnxInferenceModel
 from mltu.utils.text_utils import ctc_decoder
-
-import numpy as np
-import cv2
 
 MODEL_DIR = "Models/LT_Sentence_Recognition/202512071555"
 
@@ -60,13 +61,6 @@ def load_model(model_dir):
     configs_path = os.path.join(model_dir, "configs.yaml")
     print("DEBUG configs_path exists:", os.path.exists(configs_path))
 
-    # DEBUG YAML load
-    import yaml
-    with open(configs_path, 'r', encoding='utf-8') as f:
-        data = yaml.safe_load(f)
-    print("DEBUG YAML data:", data)
-
-
     configs = BaseModelConfigs.load(configs_path)
     if configs is None:
         raise RuntimeError(f"Failed to load configs from {configs_path}")
@@ -89,7 +83,7 @@ def load_model(model_dir):
             raise FileNotFoundError(f"H5 failas nerastas: {h5_path}")
 
         print(f"Įkeliamas H5 modelis: {h5_path}")
-        keras_model = tf.keras.models.load_model(h5_path, compile=False)
+        keras_model = tf.keras.models.load_model(h5_path, compile=False, safe_mode=False)
 
         print("Konvertuojama į ONNX...")
         spec = (tf.TensorSpec((None, configs.height, configs.width, 3), tf.float32, name="input"),)
@@ -153,23 +147,6 @@ def model_info():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    """
-    Atpažįsta tekstą iš vaizdo
-
-    Request body (JSON):
-        {
-            "image": "base64_encoded_image"
-        }
-
-    OR multipart/form-data:
-        file: image file
-
-    Response:
-        {
-            "success": true,
-            "text": "atpažintas tekstas"
-        }
-    """
     if model is None:
         return jsonify({
             'success': False,
@@ -177,13 +154,11 @@ def predict():
         }), 500
 
     try:
-        # Tikriname ar yra failas (multipart/form-data)
         if 'file' in request.files:
             file = request.files['file']
             image_bytes = file.read()
             image = decode_image(image_bytes)
 
-        # Arba JSON su base64 (application/json)
         elif request.is_json:
             data = request.get_json()
             if 'image' not in data:
@@ -200,7 +175,6 @@ def predict():
                 'error': 'Netinkamas request formatas. Naudokite JSON su "image" lauku arba multipart/form-data su "file"'
             }), 400
 
-        # Atliekame prognozę
         predicted_text = model.predict(image)
 
         return jsonify({
@@ -217,23 +191,6 @@ def predict():
 
 @app.route('/batch_predict', methods=['POST'])
 def batch_predict():
-    """
-    Atpažįsta tekstą keliuose vaizduose
-
-    Request body (JSON):
-        {
-            "images": ["base64_image1", "base64_image2", ...]
-        }
-
-    Response:
-        {
-            "success": true,
-            "results": [
-                {"index": 0, "text": "tekstas1", "success": true},
-                {"index": 1, "text": "tekstas2", "success": true}
-            ]
-        }
-    """
     if model is None:
         return jsonify({
             'success': False,
