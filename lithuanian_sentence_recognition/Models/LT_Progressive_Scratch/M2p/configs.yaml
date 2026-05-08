@@ -1,0 +1,10 @@
+batch_size: 32
+height: 199
+learning_rate: 0.0005
+max_text_length: 55
+model_path: Models/LT_Progressive_Scratch/M2p
+train_epochs: 100
+train_workers: 8
+vocab: " ,.?ABCDEFGHIJKLMNOPRSTUVYZabcdefghijklmnoprstuvyz\u0104\u0105\u010C\u010D\
+  \u0117\u0119\u012F\u0160\u0161\u016B\u0173\u017D\u017E"
+width: 2262
