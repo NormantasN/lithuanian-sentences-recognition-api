@@ -12,7 +12,7 @@ from mltu.configs import BaseModelConfigs
 from mltu.inferenceModel import OnnxInferenceModel
 from mltu.utils.text_utils import ctc_decoder
 
-MODEL_DIR = "Models/LT_Progressive_Scratch/M2p"
+MODEL_DIR = "Models/LT_Progressive_Scratch/M1p"
 
 app = Flask(__name__)
 CORS(app)
